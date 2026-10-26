@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session Admin",
+    "description": "Permanently delete sessions and the files they stored, from each Session row's menu."
+  }
+}

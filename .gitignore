@@ -1,0 +1,32 @@
+# dependencies / build output
+node_modules/
+dist/
+*.tgz
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# local scratch
+*.tmp
+*.bak
+*.bak-*
+tmp/
+cache/
+out/
+_probe/
+tasks/
+
+# python leftovers (tooling in this repo)
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# never commit runtime data / secrets
+audit.jsonl
+audit.jsonl.1
+.env
+.env.*
+*.pem
+secrets/

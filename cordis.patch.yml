@@ -1,0 +1,3 @@
+- insert:
+    - id: session-admin
+      name: '@local/dsh-session-admin'
